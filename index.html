@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@YourTwitterHandle">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="URL_TO_IMAGE">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="URL_TO_IMAGE">
+    <meta property="og:url" content="URL_TO_YOUR_WEBSITE">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="">
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/image-2/logo.png">
+
+    <!-- Google Web Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Lato"> -->
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
+
+    <!-- Assets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/animate/animate.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/aos/aos.css">
+    <!-- <link rel="stylesheet" href="fonts/font-awesome.css"> -->
+    <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style-5.css">
+    <link rel="stylesheet" href="css/style-4.css">
+    <link rel="stylesheet" href="css/style-3.css">
+    <link rel="stylesheet" href="css/style-2.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Veena Vidhyalaya</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid  text-white d-none d-lg-flex topbar" id="home" style="background-color: var(--brand);">
+        <div class="container py-3">
+            <div class="d-flex align-items-center">
+                <small class="ms-4"><i class="fa fa-envelope me-3"></i><a href="mailto:veenavidhyalayaa@gmail.com" style="color: white;">veenavidhyalayaa@gmail.com</a></small>
+                <small class="ms-4"><i class="fa fa-phone-alt me-3"></i><a href="tel:+91 8015082332" style="color: white;">+91 8015082332</a></small>
+                <!-- <div class="ms-auto d-flex align-items-center">
+                    <div class="ms-3 d-flex icons">
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner" style="background-color: #fff">
+        <div class="container">
+            <div class="row align-items-center site-header">
+                <div class="col-6  col-xl-2">
+                    <a class="nav-brand" href="index.html"><img src="img/image-2/logo.png" alt=""></a>
+                </div>
+                <div class="col-12 col-md-10 d-none d-xl-block text-end menu-laptop">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                        <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                            <li><a href="index.html" class="nav-link">Home</a></li>
+                            <li><a href="#about" class="nav-link">About Us</a></li>
+                            <li><a href="#infrastructure" class="nav-link">Infrastructure</a></li>
+                            <li><a href="#pre-primary" class="nav-link">Pre-Primary</a></li>
+                            <li><a href="#primary" class="nav-link">Primary</a></li>
+                            <!-- <li class="has-children">
+                                <a href="services.html" class="nav-link">Our Products</a>
+                                <ul class="dropdown dropdown-padding">
+                                    <li><a href="#" class="nav-link">Products</a></li>
+                                    <li><a href="#" class="nav-link">Products</a></li>
+                                    <li><a href="#" class="nav-link">Products</a></li>
+                                    <li class="has-children">
+                                        <a href="">3D Animation</a>
+                                        <ul class="dropdown dropdown-padding">
+                                            <li><a href="">3D Animation</a></li>
+                                            <li><a href="">3D Animation</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li> -->
+                            <li><a href="#contact" class="nav-link">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3 text-end" style="position: relative; top: 3px;">
+                    <a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!--End-->
+
+
+    <div class="container-fluid px-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/image-2/img1.jpg" alt="Image" height="750px" style="object-fit: cover;">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7 ps-lg-5 text-start">
+                                    <h3 class="display-3 text-white mb-4 animated slideInRight" style="animation-delay: 0.5s;">Nurturing Young Minds</h3>
+                                    <p class="fs-5 text-white animated slideInLeft" style="animation-delay: 0.3s;">Empowering children through innovative learning and life skills, fostering a love for education from ages 2 to 10.</p>
+                                    <p><a href="#about" class="primary-btn normal-btn text-white animated slideInUp" style="animation-delay: 0.9s;">Know Us</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/image-2/img3.avif" alt="Image" height="750px" style="object-fit: cover;">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7 ps-lg-5 text-start">
+                                    <h3 class="display-3 text-white mb-4 animated slideInRight" style="animation-delay: 0.5s;">Comprehensive Learning Hub</h3>
+                                    <p class="fs-5 text-white animated slideInLeft" style="animation-delay: 0.3s;">A 1.5-acre campus offering hi-tech labs, art, dance, martial arts, and holistic growth through diverse extracurriculars.</p>
+                                    <p><a href="#infrastructure" class="primary-btn normal-btn text-white animated slideInUp" style="animation-delay: 0.9s;">Infrastructure</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/image-4/slider new-1.jpg" alt="Image" height="750px" style="object-fit: cover;">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7 ps-lg-5 text-start">
+                                    <h3 class="display-3 text-white mb-4 animated slideInRight" style="animation-delay: 0.5s;">Well-Rounded Development</h3>
+                                    <p class="fs-5 text-white animated slideInLeft" style="animation-delay: 0.3s;">Balancing academics with physical and mental growth, shaping confident, future-ready students in a safe environment.</p>
+                                    <p><a href="#contact" class="primary-btn normal-btn text-white animated slideInUp" style="animation-delay: 0.9s;">Contact Us</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- About Start -->
+    <div class="container-fluid about bg-light py-5" id="about">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img src="img/image-2/img1.jpg" class="img-fluid w-100 rounded-top bg-white" alt="Image">
+                        <img src="img/image-2/img4.jpg" class="img-fluid w-100 rounded-bottom" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                    <h4 class="text-primary">Introduction</h4>
+                    <h2 class="display-5 mb-4">Veena Vidhyalaya</h2>
+                    <p class="text ps-4 mb-4">Veena Vidhyalaya Nursery and Primary School, Vellankovil, is more than just a school; it's a launchpad for young minds. We offer a comprehensive education that nurtures every aspect of a child's growth. Our state-of-the-art 1.5-acre campus is a vibrant hub of learning, equipped with hi-tech labs, individual subject labs, and spacious grounds.</p>
+                    <p class="text ps-4 mb-4">From the tender age of 2 to 10, we foster a love for learning through innovative teaching methods, emphasizing value-based education and life skills. Our curriculum is a perfect blend of academics and extracurriculars, preparing students for the future. We offer art class, Bharatanatyam, Western dance, Karate, Silambam, Abacus etc </p>
+                    <p class="text ps-4 mb-4">Outside exposure is at the heart of our ethos. Our focus on mental and physical development ensures well-rounded individuals. With dedicated subject experts, comfortable timings, and a safe,we create an ideal learning environment.</p>
+
+                    <a href="#infrastructure" class="btn btn-brand py-2 px-4 me-2">Read More</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+     <!-- Vision Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row gx-0 mb-3 mb-lg-0">
+            <div class="col-lg-6 my-lg-5 py-lg-5">
+                <div class="vision-start bg-primary p-5">
+                    <h1 class="display-5 mb-4">// Our Vision</h1>
+                    <p style="color: white;">To cultivate well-rounded individuals equipped with the knowledge, skills, and values to excel in a rapidly changing world. By fostering a stimulating and technologically advanced learning environment, we empower students to reach their full potential, become responsible citizens, and contribute meaningfully to society.
+                    </p>
+                    <ul class="">
+                        <li style="color: white;"><b>1.Focus on student growth:</b>Emphasizes the development of well-rounded individuals.</li>
+                        <li style="color: white;"><b>2.Technological integration:</b>Highlights the importance of technology in education.</li>
+                        <li style="color: white;"><b>3.sCommunity engagement:</b>Implicitly acknowledges the role of parents and the community.</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100 " src="img/image-4/vision-1.jpg" style="object-fit: cover;">
+                </div>
+            </div>
+        </div>
+      <!---  <div class="row gx-0">
+            <div class="col-lg-6" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100" src="img/about-2.jpg" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-6 my-lg-5 py-lg-5">
+                <div class="vision-start bg-primary p-5">
+                    <h1 class="display-5 mb-4">Our Mission</h1>
+                    <p style="color: white;">
+                        To nurture well-rounded leaders of tomorrow by fostering intellectual curiosity, character development, and a global perspective. We provide a stimulating learning environment that empowers students to reach their full potential through experiential learning, critical thinking, and a strong foundation in academics and co-curricular activities.
+                    </p>
+                    <ul style="color: white;">
+                        <li><b>Holistic Development:</b> Cultivate physical, mental, emotional, and social well-being through a balanced curriculum.</li>
+                        <li><b>Academic Excellence:</b> Build a strong foundation in core subjects, emphasizing critical thinking and problem-solving skills.</li>
+                        <li><b>Character Building:</b> Foster values of honesty, integrity, empathy, and respect through experiential learning and community engagement.</li>
+                        <li><b>Global Citizenship:</b> Develop a global perspective through cultural exchange, language learning, and international exposure.</li>
+                        <li><b>Innovation and Creativity:</b> Encourage creativity, innovation, and entrepreneurial spirit through project-based learning and technology integration.</li>
+                        <li><b>Curriculum Integration:</b> Ensure that the philosophy is integrated into all subject areas and not just isolated to specific subjects or activities.</li>
+                        <li><b>Teacher Training:</b> Provide teachers with adequate training in experiential learning, inquiry-based teaching, and assessment for learning.</li>
+                        <li><b>Resource Allocation:</b> Allocate sufficient resources for materials, equipment, and infrastructure to support hands-on activities and projects.</li>
+                        <li><b>Collaboration:</b> Foster collaboration among teachers, parents, and the community to create a supportive learning environment.</li>
+                        <li><b>Continuous Evaluation:</b> Regularly assess the implementation of the philosophy and make necessary adjustments.</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div> --->
+    </div>
+</div>
+<!-- Vision End -->
+
+    <!-- Mission Start -->
+<div class="container-xxl py-6">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                <h2 class="text-primary text-uppercase mb-2">// Our Mission</h2>
+                <h1 class="display-6 mb-4">To Nurture Well-Rounded Leaders of Tomorrow</h1>
+                <p class="mb-5">
+                    To nurture well-rounded leaders of tomorrow by fostering intellectual curiosity, character development, and a global perspective. We provide a stimulating learning environment that empowers students to reach their full potential through experiential learning, critical thinking, and a strong foundation in academics and co-curricular activities.
+                </p>
+                <div class="row gy-5 gx-4">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fa fa-user-graduate text-white"></i>
+                            </div>
+                            <h5 class="mb-0">Holistic Development</h5>
+                        </div>
+                        <span>Cultivate physical, mental, emotional, and social well-being through a balanced curriculum.</span>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fa fa-book text-white"></i>
+                            </div>
+                            <h5 class="mb-0">Academic Excellence</h5>
+                        </div>
+                        <span>Build a strong foundation in core subjects, emphasizing critical thinking and problem-solving skills.</span>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fa fa-heart text-white"></i>
+                            </div>
+                            <h5 class="mb-0">Character Building</h5>
+                        </div>
+                        <span>Foster values of honesty, integrity, empathy, and respect through experiential learning and community engagement.</span>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fa fa-globe text-white"></i>
+                            </div>
+                            <h5 class="mb-0">Global Citizenship</h5>
+                        </div>
+                        <span>Develop a global perspective through cultural exchange, language learning, and international exposure.</span>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fa fa-lightbulb text-white"></i>
+                            </div>
+                            <h5 class="mb-0">Innovation and Creativity</h5>
+                        </div>
+                        <span>Encourage creativity, innovation, and entrepreneurial spirit through project-based learning and technology integration.</span>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fa fa-chalkboard-teacher text-white"></i>
+                            </div>
+                            <h5 class="mb-0">Teacher Training</h5>
+                        </div>
+                        <span>Provide teachers with adequate training in experiential learning, inquiry-based teaching, and assessment for learning.</span>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fa fa-tools text-white"></i>
+                            </div>
+                            <h5 class="mb-0">Resource Allocation</h5>
+                        </div>
+                        <span>Allocate sufficient resources for materials, equipment, and infrastructure to support hands-on activities and projects.</span>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.8s">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fa fa-users text-white"></i>
+                            </div>
+                            <h5 class="mb-0">Collaboration</h5>
+                        </div>
+                        <span>Foster collaboration among teachers, parents, and the community to create a supportive learning environment.</span>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.9s">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="contact-icon me-3">
+                                <i class="fa fa-tasks text-white"></i>
+                            </div>
+                            <h5 class="mb-0">Continuous Evaluation</h5>
+                        </div>
+                        <span>Regularly assess the implementation of the philosophy and make necessary adjustments.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Mission End -->
+
+
+    <!-- Call to Action Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="rounded p-3" style="background-color: hsl(2, 60%, 35%, 0.3);">
+                <div class="bg-white rounded p-4" style="border: 1px dashed var(--brand)">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                            <img class="img-fluid rounded w-100" src="img/image-2/img2.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="mb-4">
+                                <h2 class="mb-3">Reach Out to Veena Vidhyalaya</h2>
+                                <p>Connect with us to explore a nurturing environment for your child’s holistic growth and learning.</p>
+                            </div>
+                            <a href="tel:8015082332" class="btn btn-brand py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Call to Action End -->
+
+      <!-- Team Start -->
+      <div class="container-xxl px-0 py-5" id="infrastructure">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h2 class="text-primary text-uppercase mb-2">Infrastructure</h2>
+            <h4 class=" mb-0">Highlights of Veena Vidhyalaya School</h4ss>
+            <p class="">School is considered to be the "Second home" for the students where they spend the most vital hours of their day.</p>
+        </div>
+        <div class="row g-0">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="row g-0 flex-sm-row">
+                    <div class="col-sm-6">
+                        <div class="team-img position-relative">
+                            <img class="img-infra" src="img/image-4/Experimental and Activity Learning.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="h-100 p-5 d-flex flex-column justify-content-between">
+                            <div class="mb-3">
+                                <h4>Experimental and Activity Learning</h4>
+                            </div>
+                            <p>Our learning methodology encourages students to engage directly with the subject matter through practical projects and real-world applications. This hands-on approach enables them to better retain knowledge, develop problem-solving skills, and think critically about their environment. We prioritize interactive sessions that inspire creativity, collaboration, and innovation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                <div class="row g-0 flex-sm-row-reverse flex-lg-row">
+                    <div class="col-sm-6">
+                        <div class="team-img position-relative">
+                            <img class="img-infra" src="img/image-4/Safe and Healthy CCTV-Monitored Environment.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="h-100 p-5 d-flex flex-column justify-content-between">
+                            <div class="mb-3">
+                                <h4>Safe and Healthy CCTV-Monitored Environment</h4>
+                            </div>
+                            <p>We understand that a secure and nurturing environment is key to effective learning. Our institution is equipped with 24/7 CCTV monitoring, ensuring the safety and peace of mind of both students and parents. Health protocols and cleanliness are diligently maintained, offering a space where students can thrive physically and mentally.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="row g-0 flex-lg-row-reverse">
+                    <div class="col-sm-6">
+                        <div class="team-img position-relative">
+                            <img class="img-infra" src="img/image-4/Strong Pedagogy and Interactive Learning.avif" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="h-100 p-5 d-flex flex-column justify-content-between">
+                            <div class="mb-3">
+                                <h4>Strong Pedagogy and Interactive Learning</h4>
+                            </div>
+                            <p>Our teaching staff follows a dynamic pedagogical approach that incorporates modern teaching techniques, tailored to the needs of each student. Interactive learning, including group discussions, digital tools, and multimedia presentations, ensures that students remain engaged and motivated. We aim to build a deep understanding of subjects rather than superficial memorization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                <div class="row g-0 flex-sm-row-reverse">
+                    <div class="col-sm-6">
+                        <div class="team-img position-relative">
+                            <img class="img-infra" src="img/image-4/Quality Curriculum and Teachers.avif" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="h-100 p-5 d-flex flex-column justify-content-between">
+                            <div class="mb-3">
+                                <h4>Quality Curriculum and Teachers</h4>
+                            </div>
+                            <p>Our curriculum is designed by subject matter experts and regularly updated to meet the evolving needs of students. Paired with highly qualified and dedicated teachers, our educational programs aim to foster academic excellence. We create an environment that nurtures not only intellectual growth but also personal development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="row g-0 flex-sm-row">
+                    <div class="col-sm-6">
+                        <div class="team-img position-relative">
+                            <img class="img-infra" src="img/image-4/Specialized Psychological & Counseling Mentors.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="h-100 p-5 d-flex flex-column justify-content-between">
+                            <div class="mb-3">
+                                <h4>Specialized Psychological & Counseling Mentors</h4>
+                            </div>
+                            <p>We provide students with access to specialized psychological and counseling services. Our mentors offer guidance to support emotional well-being, career counseling, and personal growth, helping students navigate the challenges of school life and develop resilience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                <div class="row g-0 flex-sm-row-reverse flex-lg-row">
+                    <div class="col-sm-6">
+                        <div class="team-img position-relative">
+                            <img class="img-infra" src="img/image-4/Skill Development and Add-On Courses.avif" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="h-100 p-5 d-flex flex-column justify-content-between">
+                            <div class="mb-3">
+                                <h4>Skill Development and Add-On Courses</h4>
+                            </div>
+                            <p>Our institution offers a variety of skill development and add-on courses that enhance the learning experience. These programs help students acquire practical skills that complement their academic knowledge, preparing them for future opportunities and challenges in a competitive world.</p>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="row g-0 flex-lg-row-reverse">
+                    <div class="col-sm-6">
+                        <div class="team-img position-relative">
+                            <img class="img-infra" src="img/image-4/RO-Water Facility.avif" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="h-100 p-5 d-flex flex-column justify-content-between">
+                            <div class="mb-3">
+                                <h4>RO-Water Facility</h4>
+                            </div>
+                            <p>We prioritize the health and well-being of our students by providing clean and safe drinking water through our RO-water facility. This ensures that students stay hydrated and maintain their focus throughout the day, promoting a healthy lifestyle within the school environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                <div class="row g-0 flex-sm-row-reverse">
+                    <div class="col-sm-6">
+                        <div class="team-img position-relative">
+                            <img class="img-infra" src="img/image-4/Transport.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="h-100 p-5 d-flex flex-column justify-content-between">
+                            <div class="mb-3">
+                                <h4>Transport</h4>
+                            </div>
+                            <p>Our transport facilities ensure the safety and convenience of students commuting to and from school. Our fleet of buses is well-maintained, with experienced drivers and attendants who prioritize the well-being of students during their daily journey.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    <!-- Team End -->
+
+      <!-- About Start -->
+
+
+      <div class="container-fluid py-5 my-5" id="pre-primary">
+        <div class="container pt-5">
+            <div class="section-title">
+                <h2>A Creative Studio With A Reading Room Veena Vidhyalaya Has Different Wings</h2>
+                
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
+                    <h2 class="text-primary">Pre-Primary Wing</h2>
+                    <h3 class="mb-4">Nurturing Young Minds at Veena Vidhyalaya Kindergarten</h3>
+                    <p>At Veena Vidhyalaya’s Pre-Primary Wing, we provide a nurturing environment where curiosity and creativity flourish. Our kindergarten program focuses on holistic child development, balancing playful learning with structured activities designed to foster cognitive, emotional, and social growth.</p>
+                    <p class="mb-4">From interactive learning sessions to engaging playtime, we ensure that each child develops critical thinking and communication skills, while also building a strong foundation in early literacy, numeracy, and social interaction. Our experienced educators guide children through a journey of discovery, helping them grow confidently into the next stage of their education.</p>
+                <!---<a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">Learn More</a>-->
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
+                    <div class="h-100 position-relative">
+                        <img src="img/image-4/Pre-Primary Wing.jpg" class="img-fluid w-75 rounded" alt="Kindergarten Activities" style="margin-bottom: 25%;">
+                        <div class="position-absolute w-75" style="top: 25%; left: 25%;">
+                            <img src="img/image-4/Pre-Primary Wing-1.avif" class="img-fluid w-100 rounded" alt="Kindergarten Learning">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+     <!-- About Start -->
+     <div class="container-fluid py-5 my-5" id="primary">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
+                    <div class="h-100 position-relative">
+                        <img src="img/image-4/Primary.jpg" class="img-fluid w-75 rounded" alt="Primary Wing Activities" style="margin-bottom: 25%;">
+                        <div class="position-absolute w-75" style="top: 25%; left: 25%;">
+                            <img src="img/image-4/Primary-1.jpg" class="img-fluid w-100 rounded" alt="Classroom Learning">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
+                    <h2 class="text-primary">Primary Wing</h2>
+                    <h3 class="mb-4">Empowering Young Learners at Veena Vidhyalaya (Grade I – V)</h3>
+                    <p>At Veena Vidhyalaya's Primary Wing, we cultivate a love for learning in children from Grade I to V. Our engaging curriculum is designed to encourage critical thinking, creativity, and collaboration among students, providing a solid foundation for their educational journey.</p>
+                    <p class="mb-4">Through interactive lessons, hands-on activities, and personalized support, our experienced teachers inspire students to explore new ideas and develop essential skills. We emphasize a balanced approach that nurtures both academic excellence and personal growth, preparing children to thrive in an ever-changing world.</p>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <!-- About End -->
+
+
+     <!-- Contact Start -->
+     <div class="contact my-5" id="contact">
+        <div class="container">
+            <div class="section-header text-center pb-5">
+                <p style="color: var(--brand);" class="text-bolder">Contact Us</p>
+                <h2 class="s-one">Contact For Any Query</h2>
+            </div>
+            <div class="row my-3">
+
+                <!-- Contact Information Column -->
+                <div class="col-md-6">
+                    <div class="contact-info-container">
+                        <div class="contact-info-row">
+                            <div class="contact-info">
+                                <div class="contact-icon">
+                                    <i class="fa fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Address</h3>
+                                    <p>Vellankovil - 638 054,
+                                        <br> Gobi (Tk), Erode (Dt).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-info-row">
+                            <div class="contact-info">
+                                <div class="contact-icon">
+                                    <i class="fa fa-phone-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Call Us</h3>
+                                    <p>+91 8015082332</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-info-row">
+                            <div class="contact-info">
+                                <div class="contact-icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Email Us</h3>
+                                    <p>veenavidhyalayaa@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contact-info-row">
+                            <div class="contact-info">
+                                <div class="contact-icon">
+                                    <i class="fa fa-share"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Follow Us</h3>
+                                    <div class="contact-social">
+                                        <a href="https://www.instagram.com/gg_makeover_/"><i
+                                                class="fab fa-instagram"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- Map Column -->
+                <div class="col-md-6">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62583.96436329411!2d77.38326940767209!3d11.371347611909167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba916970c6392d9%3A0x4d50ffb5b1302be!2sTamil%20Nadu%20638054!5e0!3m2!1sen!2sin!4v1727185489060!5m2!1sen!2sin"
+                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6">
+                    <h4 class="mb-4 footer-head">Veena Vidhyalaya</h4>
+                    <p class="footer-color">Veena Vidhyalaya Nursery and Primary School, Vellankovil, nurtures young minds in a safe, innovative, and value-based learning environment. With expert teachers and state-of-the-art facilities, we ensure a well-rounded education that fosters academic excellence and personal growth from ages 2 to 10.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="mb-4 footer-head">Quick Links</h4>
+                    <a class="btn btn-link" href="index.html">Home</a>
+                    <a class="btn btn-link" href="#about">About Us</a>
+                    <a class="btn btn-link" href="#infrastructure">Infrastructure</a>
+                    <a class="btn btn-link" href="#pre-primary">Pre-Primary</a>
+                    <a class="btn btn-link" href="#primary">Primary</a>
+                    <a class="btn btn-link" href="#contact">Contact Us</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="mb-4 footer-head">Address</h4>
+                    <p class="mb-2 footer-color"><i class="fa fa-map-marker-alt me-3"></i>Vellankovil - 638 054,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gobi (Tk), Erode (Dt).</p>
+                    <p class="mb-2 footer-color"><i class="fa fa-phone-alt me-3"></i>+91 80150 82332</p>
+                    <p class="mb-2 footer-color"><i class="fa fa-envelope me-3"></i>veenavidhyalayaa@gmail.com</p>
+                    <!-- <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-12 text-center mb-3 mb-md-0 footer-color">
+                        &copy; Copyright 2024 <a class="border-bottom" href="index.html">Veena Vidhyalaya</a> , All Right Reserved. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" 
+    aria-hidden="true" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12" style="display: flex;align-items: center;justify-content: center;">
+                                <form class="col-12 row g-3" action="contact.php" name="contactform" 
+                                method="post">
+                                    <div>
+                                        <h4 class="text-center" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Contact Us</h4>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label" style="color: black;">Name</label>
+                                        <input type="text" name="name" class="form-control" 
+                                        placeholder="Name" id="userName"
+                                            aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label" style="color: black;">Phone</label>
+                                        <input type="text" name="phone" class="form-control" 
+                                        placeholder="Phone" id="userName"
+                                            aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="userName" class="form-label" style="color: black;">Email</label>
+                                        <input type="email" name="email" class="form-control" 
+                                        placeholder="Email"
+                                            id="userName" aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                        <div class="col-12">
+                                        <label for="exampleInputEmail1" class="form-label" style="color: black;">Message</label>
+                                        <textarea name="comments" placeholder="Enter Your Message"
+                                            class="form-control" id="" rows="2" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" style="background-color: #fc7341;color: white;border: 1px solid #fc7341;padding: 8px 20px;border-radius: 3px;">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-lg-square rounded back-to-top" data-aos="zoom-in"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Float Icons -->
+    <a href="tel:8015082332" class="float">
+        <i class='bx bxs-phone my-float'></i>
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=+918015082332&text=I am interested in your services." class="float-2" target="_blank">
+        <i class='fab fa-whatsapp my-float'></i>
+    </a>
+
+    <!-- Main JS File -->
+    <script src="js/main-5.js"></script>
+    <script src="js/main-4.js"></script>
+    <script src="js/main-3.js"></script>
+    <script src="js/main-2.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/wow/wow.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="assets/slick/slick-animation.min.js"></script>
+    <script src="assets/fancybox/jquery.fancybox.min.js"></script>
+    <script src="assets/aos/aos.js"></script>
+    <script src="js/roberto.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script>
+        (function ($) {
+            "use strict";
+            
+            // Initiate the wowjs
+            new WOW().init();
+            
+        })(jQuery);
+    </script>
+    <script>
+        // Back to top button
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.back-to-top').fadeIn('slow');
+            } else {
+                $('.back-to-top').fadeOut('slow');
+            }
+            });
+            $('.back-to-top').click(function () {
+            $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+            return false;
+        });
+    </script>
+    <script>
+        // Animation on scroll
+        window.addEventListener('load', () => {
+            AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+            })
+        });
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+</body>
+</html>
