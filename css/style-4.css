@@ -1,0 +1,119 @@
+:root {
+    --brand: #01b5fb;
+    --sub: #6ac754;
+    --body: #516171;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.vision-start,
+.vision-end {
+    background: url(../img/image-4/) center center no-repeat;
+    background-size: contain;
+}
+
+@media (min-width: 992px) {
+    .vision-start {
+        position: relative;
+        margin-right: -60px;
+        z-index: 1;
+    }
+
+    .vision-end {
+        position: relative;
+        margin-left: -90px;
+        z-index: 1;
+    }
+}
+/*** Team ***/
+.team-img::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 30px solid;
+    border-color: transparent transparent #FFFFFF transparent;      
+}
+
+@media (min-width: 576px) {
+    .flex-sm-row .team-img::after,
+    .flex-lg-row-reverse .team-img::after {
+        top: 50%;
+        right: 0;
+        bottom: auto;
+        left: auto;
+        transform: translateY(-50%);
+        border-color: transparent #FFFFFF transparent transparent;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .flex-sm-row-reverse .team-img::after {
+        top: 50%;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        transform: translateY(-50%);
+        border-color: transparent transparent transparent #FFFFFF;
+    }
+}
+
+@media (min-width: 992px) {
+    .flex-lg-row-reverse .team-img::after,
+    .flex-sm-row-reverse .team-img::after {
+        top: 50%;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        transform: translateY(-50%);
+        border-color: transparent transparent transparent #FFFFFF;
+    }
+
+    .flex-sm-row-reverse.flex-lg-row .team-img::after {
+        top: 50%;
+        right: 0;
+        bottom: auto;
+        left: auto;
+        transform: translateY(-50%);
+        border-color: transparent #FFFFFF transparent transparent;
+    }
+}
+ .img-infra{
+    height: 400px;
+    width: 100%;
+ }
+
+ /*End*/
+
+ .section-title {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .section-title h2 {
+    font-family: "Lora", sans-serif;
+    font-size: 2rem;
+    color: #000000; /* Darker color for contrast */
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+  }
+  
+  .section-title h3 {
+    font-family: 'Playfair Display', serif; /* Elegant serif font */
+    font-size: 1.5rem;
+    color: var(--brand); /* Deep purple accent */
+    font-style: italic;
+    margin-top: 0;
+  }
+  
+  .section-title::before {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 4px;
+    background-color: var(--sub); /* Accent color */
+    margin: 0 auto 20px;
+  }
